@@ -809,7 +809,7 @@ function OrionLib:MakeWindow(WindowConfig)
 						Font = Enum.Font.GothamBold,
 						Name = "Content"
 					}), "Text"),
-					AddThemeObject(MakeElement("Stroke"), "Stroke")
+					AddThemeObject(MakeElement("Stroke"), "Stroke2")
 				}), "Second")
 
 				local LabelFunction = {}
@@ -840,7 +840,7 @@ function OrionLib:MakeWindow(WindowConfig)
 						Name = "Content",
 						TextWrapped = true
 					}), "TextDark"),
-					AddThemeObject(MakeElement("Stroke"), "Stroke")
+					AddThemeObject(MakeElement("Stroke"), "Stroke2")
 				}), "Second")
 
 				AddConnection(ParagraphFrame.Content:GetPropertyChangedSignal("Text"), function()
@@ -882,7 +882,7 @@ function OrionLib:MakeWindow(WindowConfig)
 						Size = UDim2.new(0, 20, 0, 20),
 						Position = UDim2.new(1, -30, 0, 7),
 					}), "TextDark"),
-					AddThemeObject(MakeElement("Stroke"), "Stroke"),
+					AddThemeObject(MakeElement("Stroke"), "Stroke2"),
 					Click
 				}), "Second")
 
@@ -955,7 +955,7 @@ function OrionLib:MakeWindow(WindowConfig)
 						Font = Enum.Font.GothamBold,
 						Name = "Content"
 					}), "Text"),
-					AddThemeObject(MakeElement("Stroke"), "Stroke"),
+					AddThemeObject(MakeElement("Stroke"), "Stroke2"),
 					ToggleBox,
 					Click
 				}), "Second")
@@ -1051,7 +1051,7 @@ function OrionLib:MakeWindow(WindowConfig)
 						Font = Enum.Font.GothamBold,
 						Name = "Content"
 					}), "Text"),
-					AddThemeObject(MakeElement("Stroke"), "Stroke"),
+					AddThemeObject(MakeElement("Stroke"), "Stroke2"),
 					SliderBar
 				}), "Second")
 

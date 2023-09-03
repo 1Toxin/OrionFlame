@@ -16,10 +16,10 @@ local OrionLib = {
 		Default = {
 			Main = Color3.fromRGB(25, 25, 25),
 			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(255, 75, 0),
-			Divider = Color3.fromRGB(255, 75, 0),
-			Text = Color3.fromRGB(255, 75, 0),
-			TextDark = Color3.fromRGB(200, 0, 0)
+			Stroke = Color3.fromRGB(60, 60, 60),
+			Divider = Color3.fromRGB(60, 60, 60),
+			Text = Color3.fromRGB(240, 240, 240),
+			TextDark = Color3.fromRGB(255, 75, 0)
 		}
 	},
 	SelectedTheme = "Default",
@@ -821,7 +821,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				Text = Text or "Text"
 				Content = Content or "Content"
 
-				local ParagraphFrame = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(200, 70, 0), 0, 5), {
+				local ParagraphFrame = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 255, 255), 0, 5), {
 					Size = UDim2.new(1, 0, 0, 30),
 					BackgroundTransparency = 0.7,
 					Parent = ItemParent

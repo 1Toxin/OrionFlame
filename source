@@ -480,11 +480,11 @@ function OrionLib:MakeWindow(WindowConfig)
 	if WindowConfig.IntroEnabled == nil then
 		WindowConfig.IntroEnabled = true
 	end
-	WindowConfig.IntroText = WindowConfig.IntroText or "Flame Hub"
+	WindowConfig.IntroText = "Flame Hub"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
 	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://12517360827"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://12517360827"
+	WindowConfig.IntroIcon = "rbxassetid://12517360827"
 	OrionLib.Folder = WindowConfig.ConfigFolder
 	OrionLib.SaveCfg = WindowConfig.SaveConfig
 
